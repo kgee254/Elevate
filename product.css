@@ -1,0 +1,11 @@
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: flex;
+    color: brown;
+    background-color: aliceblue;
+}
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    position: flex;
+}
