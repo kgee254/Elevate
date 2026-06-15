@@ -1,0 +1,15 @@
+Git commands:
+- git init
+- git add .
+- git commit -m "Initial commit"
+- git remote add origin <repository-url>
+- git push -u origin master
+- git pull origin master
+- git branch <branch-name>
+- git checkout <branch-name>
+- git merge <branch-name>
+- git push origin <branch-name>
+- git pull origin <branch-name>
+- git tag <tag-name>
+- git push origin <tag-name>
+- git pull origin <tag-name>
