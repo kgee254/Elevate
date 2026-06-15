@@ -31,8 +31,14 @@ nav a {
 
 nav a:hover {
   color: #00a86b;
-  text-decoration: underline;
   transform: translate3d(-2px);
+}
+
+nav a.active {
+  color: #00a86b;
+  font-weight: 600;
+  border-bottom: 2px solid;
+  padding-bottom: 4px;
 }
 
 header h1 {
