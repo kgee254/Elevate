@@ -1,5 +1,6 @@
-.h1 {
-    color: #333;
-    font-size: 2em;
-    margin-bottom: 20px;
+.aboutproduct-header {
+    color: brown;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
