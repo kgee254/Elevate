@@ -101,9 +101,41 @@ footer {
   font-size: 14px;
 }
 
-.contact a {
-  color: #00a86b;
+.contact {
+  background: #0a2540;
+  color: white;
+  text-align: center; 
+  padding: 60px 30px;
+  border-radius: 16px;
+  max-width: 900px;
+  margin: 80px auto;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.contact h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.contact p {
+  font-size: 18px;
+  margin-bottom: 25px;
+  opacity: 0.9;
+}
+
+.contact .btn {
+  background: #00a86b;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 8px;
   text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.contact .btn:hover {
+  transform: translateY(-3px);
 }
 
 .btn {
