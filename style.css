@@ -1,0 +1,159 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #222;
+  background: #f7f7f9;
+}
+
+header {
+  background: #0a2540;
+  color: white;
+  padding: 0 20px 60px 20px;
+  text-align: center;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding: 20px 0 30px 0;
+  background: rgba(0,0,0,0.3);
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  transition: all 0.2s ease;
+}
+
+nav a:hover {
+  color: #00a86b;
+  transform: translate3d(-2px);
+}
+
+nav a.active {
+  color: #00a86b;
+  font-weight: 600;
+  border-bottom: 2px solid;
+  padding-bottom: 4px;
+}
+
+header h1 {
+  margin-top: 5px;
+  font-size: 36px;
+}
+
+header p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+section {
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+section h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  overflow: hidden;
+}
+
+.card h3 {
+  margin: 0;
+  padding: 15px;
+  color: #0a2540;
+  text-align: center;
+  background: #fff;
+}
+
+.card img {
+    width: 90%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 0 auto 15px;
+    display: block;
+}
+
+footer {
+  background: #0a2540;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.contact {
+  background: #0a2540;
+  color: white;
+  text-align: center; 
+  padding: 60px 30px;
+  border-radius: 16px;
+  max-width: 900px;
+  margin: 80px auto;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.contact h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.contact p {
+  font-size: 18px;
+  margin-bottom: 25px;
+  opacity: 0.9;
+}
+
+.contact .btn {
+  background: #00a86b;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.contact .btn:hover {
+  transform: translateY(-3px);
+}
+
+.btn {
+  background: #00a86b;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+@media (max-width: 600px) {
+  header h1 { font-size: 28px; }
+  section { padding: 30px 15px; }
+  .card img {height: 160px;}
+}
